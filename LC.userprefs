@@ -2,11 +2,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="LC/Main.storyboard">
     <Files>
       <File FileName="LC/Main.storyboard" />
+      <File FileName="LC/ViewController.cs" Line="27" Column="1" />
+      <File FileName="LC/DetailViewController.cs" Line="36" Column="13" />
+      <File FileName="LC/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/johnd20/Desktop/Repos/johnDeleons_Project/LC/LC/ViewController.cs" relfile="LC/ViewController.cs" line="18" column="1" />
+      <Breakpoint file="/Users/johnd20/Desktop/Repos/johnDeleons_Project/LC/LC/ViewController.cs" relfile="LC/ViewController.cs" line="27" column="1" />
+      <Breakpoint file="/Users/johnd20/Desktop/Repos/johnDeleons_Project/LC/LC/ViewController.cs" relfile="LC/ViewController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/johnd20/Desktop/Repos/johnDeleons_Project/LC/LC/ViewController.cs" relfile="LC/ViewController.cs" line="30" column="1" />
+      <Breakpoint file="/Users/johnd20/Desktop/Repos/johnDeleons_Project/LC/LC/ViewController.cs" relfile="LC/ViewController.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

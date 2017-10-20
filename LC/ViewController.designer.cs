@@ -19,6 +19,14 @@ namespace LC
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton detailsButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton GoodButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField heightTextField { get; set; }
 
         [Outlet]
@@ -29,11 +37,25 @@ namespace LC
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField weightTextField { get; set; }
 
+        [Action ("NewButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void NewButton_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (bmiLabel != null) {
                 bmiLabel.Dispose ();
                 bmiLabel = null;
+            }
+
+            if (detailsButton != null) {
+                detailsButton.Dispose ();
+                detailsButton = null;
+            }
+
+            if (GoodButton != null) {
+                GoodButton.Dispose ();
+                GoodButton = null;
             }
 
             if (heightTextField != null) {
